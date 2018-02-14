@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")/.."
+
+source ./.env
+
+scp -o "StrictHostKeyChecking=no" -r . pi@$HUE_IP:~/esp-hue

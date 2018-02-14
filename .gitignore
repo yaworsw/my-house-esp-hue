@@ -1,0 +1,7 @@
+/esp-hue/wifi-config.h
+/vendor
+/node_modules
+/.bundle
+/.env
+/esp-hue/wifi-config.h
+.DS_Store
